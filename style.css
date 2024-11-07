@@ -90,7 +90,7 @@ header p {
 .categoria-videos {
     display: flex;
     overflow-x: auto;
-    gap: 10px;
+    gap: 30px;
 }
 
 .categoria {
