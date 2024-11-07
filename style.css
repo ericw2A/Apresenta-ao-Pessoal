@@ -111,13 +111,13 @@ header p {
 /* Seção de Links de Estudo */
 #links-estudo {
     background-color: #f30fdc;
-    padding: 10px 0;
+    padding: 20px 0;
 }
 
 #links-estudo h2 {
     text-align: center;
     font-size: 24px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 #links-estudo ul {
