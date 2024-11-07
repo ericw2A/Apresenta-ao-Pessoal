@@ -55,7 +55,7 @@ header p {
 
 /* Seção de Músicas */
 #musicas {
-    background-color: #9f038f;
+    background-color: #f30fdc;
     padding: 20px 0;
 }
 
@@ -77,7 +77,7 @@ header p {
 }
 
 #musicas a {
-    text-decoration: #9f038f;
+    text-decoration: #f30fdc;
     color: #333;
     transition: color 0.3s;
 }
@@ -110,7 +110,7 @@ header p {
 
 /* Seção de Links de Estudo */
 #links-estudo {
-    background-color: #9f038f;
+    background-color: #f30fdc;
     padding: 20px 0;
 }
 
