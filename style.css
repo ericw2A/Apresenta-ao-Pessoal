@@ -1,4 +1,4 @@
-/* Reset básico para garantir que a página tenha um visual consistente em diferentes navegadores */
+/* Reset básico */
 * {
     margin: 0;
     padding: 0;
@@ -34,13 +34,15 @@ header p {
     justify-content: center;
     align-items: center;
     margin: 40px 0;
+    flex-wrap: wrap;
+    text-align: center;
 }
 
 #sobre-mim .foto img {
     width: 200px;
     height: 200px;
     border-radius: 50%;
-    margin-right: 20px;
+    margin-bottom: 20px;
 }
 
 #sobre-mim .descricao h2 {
@@ -51,24 +53,67 @@ header p {
 #sobre-mim .descricao p {
     font-size: 18px;
     line-height: 1.6;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Seção de Pesquisa */
+#pesquisa {
+    text-align: center;
+    margin: 40px 0;
+}
+
+#form-pesquisa {
+    display: inline-block;
+    margin-top: 20px;
+}
+
+#campo-pesquisa {
+    padding: 10px;
+    font-size: 16px;
+    width: 300px;
+    border: 2px solid rgb(97, 10, 97);
+    border-radius: 5px;
+    outline: none;
+}
+
+#campo-pesquisa:focus {
+    border-color: #007BFF;
+}
+
+#form-pesquisa button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: rgb(97, 10, 97);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-left: 10px;
+}
+
+#form-pesquisa button:hover {
+    background-color: #007BFF;
 }
 
 /* Seção de Músicas */
 #musicas {
-    background-color:rgb(97, 10, 97);
+    background-color: rgb(97, 10, 97);
     padding: 20px 0;
+    text-align: center;
 }
 
 #musicas h2 {
-    text-align: center;
-    font-size: 60px;
-    margin-bottom: 30px;
+    font-size: 28px;
+    margin-bottom: 20px;
 }
 
 #musicas ul {
     list-style: none;
     padding-left: 0;
-    text-align: center;
+    display: inline-block;
+    text-align: left;
 }
 
 #musicas li {
@@ -77,7 +122,7 @@ header p {
 }
 
 #musicas a {
-    text-decoration:rgb(97, 10, 97);
+    text-decoration: none;
     color: white;
     transition: color 0.3s;
 }
@@ -86,44 +131,23 @@ header p {
     color: #007BFF;
 }
 
-/* Seção de Vídeos */
-.categoria-videos {
-    display: flex;
-    overflow-x: auto;
-    gap: 30px;
-}
-
-.categoria {
-    padding: left 40px;
-    padding-right: 40px;
-    margin-top: 60px;
-}
-.categoria-videos img{
-    opacity: 0.5;
-    height: 400px;
-}
-.categoria-video img:hover {
-    opacity: 1.0;
-    border: 5px solid green;
-}
-
-
 /* Seção de Links de Estudo */
 #links-estudo {
-    background-color:rgb(97, 10, 97);
+    background-color: rgb(97, 10, 97);
     padding: 20px 0;
+    text-align: center;
 }
 
 #links-estudo h2 {
-    text-align: center;
-    font-size: 45px;
-    margin-bottom: 40px;
+    font-size: 28px;
+    margin-bottom: 20px;
 }
 
 #links-estudo ul {
     list-style: none;
     padding-left: 0;
-    text-align: center;
+    display: inline-block;
+    text-align: left;
 }
 
 #links-estudo li {
@@ -147,6 +171,7 @@ footer {
     color: white;
     padding: 20px 0;
     text-align: center;
+    margin-top: 40px;
 }
 
 footer p {
